@@ -117,14 +117,13 @@ body {
 .ss-boxes {
     display: flex;
     justify-content: center;
-    gap:70px;
+    gap: 100px;
     margin-top: 60px;
-    padding-left: 200px; padding-right:  200px;
 }
 
 .ss-boxes img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 5px solid #3882f6;
     border-radius: 10px;
@@ -164,5 +163,59 @@ body {
 
 /*fourth section*/
 
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    padding-left: 200px; padding-right:  200px;
+    margin-top: 60px; margin-bottom: 60px;
+}
+
+.fs-modal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1400px;
+    padding: 40px 80px;
+    border-radius: 10px;
+    color: white;
+}
+
+.fs-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.fs-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.fs-subtext {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color: white;
+    border: white 2px solid;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
 
     
